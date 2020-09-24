@@ -53,6 +53,7 @@
                 th{
                     text-align:center;
                     font-weight: 100;
+                    color:rgb(112, 110, 110);
                 }
 
         </style>
@@ -129,7 +130,7 @@
                     <input id="btn" type=button value="M+" OnClick="calc.M.value=(Number(calc.M.value))+(Number(calc.display.value))">
                 </td>
                 <td>
-                    <input id="btn" type=button value="0" OnClick="calc.display.value+='9'">
+                    <input id="btn" type=button value="0" OnClick="calc.display.value+='0'">
                 </td>
                 <td>
                     <input id="btn" type=button value="±" OnClick="calc.display.value=(calc.display.value==Math.abs(calc.display.value)?-(calc.display.value):Math.abs(calc.display.value))">
